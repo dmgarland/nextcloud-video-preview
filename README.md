@@ -8,4 +8,7 @@ docker-compose up
 open localhost:8080
 ```
 
-
+## Releasing
+docker login 
+docker build . -t dmgarland/nextcloud-with-video-preview:tagname
+docker push dmgarland/nextcloud-with-video-preview:tagname
