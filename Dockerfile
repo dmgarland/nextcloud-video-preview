@@ -1,4 +1,4 @@
-FROM nextcloud:31.0.8
+FROM nextcloud:32
 
 RUN apt-get update && apt-get install --no-install-recommends -y ffmpeg && \
     apt-get clean && \
